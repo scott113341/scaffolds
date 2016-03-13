@@ -13,6 +13,9 @@ git clone git@github.com:scott113341/scaffolds.git $PROJECT_NAME
 cd $PROJECT_NAME
 git checkout $PROJECT_TYPE
 rm -rf .git
+git init
+./setup.sh
+rm setup.sh
 ```
 
 
